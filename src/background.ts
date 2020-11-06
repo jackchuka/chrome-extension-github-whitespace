@@ -1,5 +1,7 @@
+import addDomainPermissionToggle from 'webext-domain-permission-toggle'
+
 function redirect(details) {
-    var newUrl = new URL(details.url);
+    let newUrl = new URL(details.url);
     if (newUrl.searchParams.get('w') === '1') return;
     newUrl.searchParams.set('w', '1');
     return {redirectUrl: newUrl.href};
@@ -7,6 +9,8 @@ function redirect(details) {
 
 chrome.webRequest.onBeforeRequest.addListener(
     redirect,
-    {urls: ["*://github.com/*/pull/*"]},
+    {urls: ["*://*/*/pull/*/files*"]},
     ['blocking']
 );
+
+addDomainPermissionToggle()
