@@ -4,7 +4,8 @@ const srcDir = '../src/';
 
 module.exports = {
     entry: {
-        background: path.join(__dirname, srcDir + 'background.ts'),
+        service_worker: path.join(__dirname, srcDir + 'service_worker.ts'),
+        content_script: path.join(__dirname, srcDir + 'content_script.ts'),
     },
     output: {
         path: path.join(__dirname, '../dist/js'),

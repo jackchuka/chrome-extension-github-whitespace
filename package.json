@@ -1,6 +1,6 @@
 {
   "name": "chrome-extension-github-whitespace",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "chrome-extension-github-whitespace",
   "main": "index.js",
   "scripts": {
@@ -9,27 +9,27 @@
     "clean": "rimraf dist",
     "test": "npx jest"
   },
-  "author": "",
+  "author": "Masanori Uehara",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jackchuka/chrome-extension-github-whitespace.git"
   },
   "dependencies": {
-    "webext-domain-permission-toggle": "^1.0.1"
+    "webext-permission-toggle": "^5.0.1"
   },
   "devDependencies": {
-    "@types/chrome": "0.0.100",
-    "@types/jest": "^25.1.4",
-    "@types/jquery": "^3.3.33",
-    "copy-webpack-plugin": "^6.1.0",
-    "jest": "^25.1.0",
-    "ts-jest": "^25.2.1 ",
-    "rimraf": "^3.0.2 ",
-    "ts-loader": "^6.2.1",
-    "typescript": "~3.8.3 ",
-    "webpack": "^4.44.1",
-    "webpack-cli": "~3.3.11",
-    "webpack-merge": "~4.2.2"
+    "@types/chrome": "^0.0.272",
+    "@types/jest": "^29.5.13",
+    "@types/jquery": "^3.5.31",
+    "copy-webpack-plugin": "^12.0.2",
+    "jest": "^29.7.0",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.2.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "~5.6.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "~5.1.4",
+    "webpack-merge": "~6.0.1"
   }
 }

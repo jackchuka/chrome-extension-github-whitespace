@@ -1,21 +1,30 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "GitHub Whitespace",
   "description": "Redirect GitHub pull request pages to ignore whitespaces",
-  "version": "1.2",
+  "version": "2.0",
   "background": {
-    "scripts": [
-      "js/background.js"
-    ]
+    "service_worker": "js/service_worker.js"
   },
   "permissions": [
     "activeTab",
-    "contextMenus",
-    "webRequest",
-    "webRequestBlocking",
+    "contextMenus"
+  ],
+  "host_permissions": [
     "*://*.github.com/*"
   ],
-  "optional_permissions": [
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.github.com/*"
+      ],
+      "js": [
+        "js/content_script.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "optional_host_permissions": [
     "http://*/*",
     "https://*/*"
   ],
