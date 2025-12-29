@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "GitHub Whitespace",
   "description": "Redirect GitHub pull request pages to ignore whitespaces",
-  "version": "2.0",
+  "version": "<<NPM_VERSION>>",
   "background": {
     "service_worker": "js/service_worker.js"
   },
