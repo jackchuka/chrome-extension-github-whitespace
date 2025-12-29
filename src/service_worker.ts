@@ -1,3 +1,3 @@
-import addDomainPermissionToggle from 'webext-permission-toggle'
+import addDomainPermissionToggle from "webext-permission-toggle";
 
-addDomainPermissionToggle()
+addDomainPermissionToggle();
