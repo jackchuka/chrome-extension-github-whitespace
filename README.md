@@ -5,14 +5,15 @@
 Redirect GitHub pull request pages to ignore whitespaces
 
 ## Built Based On
+
 https://github.com/chibat/chrome-extension-typescript-starter
 
 ## Project Structure
 
-* src/typescript: TypeScript source files
-* src/assets: static files
-* dist: Chrome Extension directory
-* dist/js: Generated JavaScript files
+- src/typescript: TypeScript source files
+- src/assets: static files
+- dist: Chrome Extension directory
+- dist/js: Generated JavaScript files
 
 ## Setup
 
@@ -49,4 +50,5 @@ type `Ctrl + Shift + B`
 Load `dist` directory
 
 ## Test
+
 `npx jest` or `npm run test`

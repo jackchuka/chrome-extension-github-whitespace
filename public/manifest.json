@@ -6,28 +6,16 @@
   "background": {
     "service_worker": "js/service_worker.js"
   },
-  "permissions": [
-    "activeTab",
-    "contextMenus"
-  ],
-  "host_permissions": [
-    "*://*.github.com/*"
-  ],
+  "permissions": ["activeTab", "contextMenus"],
+  "host_permissions": ["*://*.github.com/*"],
   "content_scripts": [
     {
-      "matches": [
-        "*://*.github.com/*"
-      ],
-      "js": [
-        "js/content_script.js"
-      ],
+      "matches": ["*://*.github.com/*"],
+      "js": ["js/content_script.js"],
       "run_at": "document_start"
     }
   ],
-  "optional_host_permissions": [
-    "http://*/*",
-    "https://*/*"
-  ],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
   "icons": {
     "16": "icon16.png",
     "32": "icon32.png",
