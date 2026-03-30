@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^14.0.0",
-    "oxfmt": "^0.41.0",
+    "oxfmt": "^0.42.0",
     "oxlint": "^1.57.0",
     "oxlint-tsgolint": "^0.17.2",
     "rimraf": "^6.1.3",
