@@ -1,8 +1,10 @@
-# GitHub Whitespace Chrome Extension
+# Hide Whitespace for GitHub — Chrome Extension
 
 <img src="https://github.com/jackchuka/chrome-extension-github-whitespace/blob/master/public/icon128.png?raw=true" alt="logo" width="64"/>
 
-Redirect GitHub pull request pages to ignore whitespaces
+Hide whitespace-only changes in GitHub pull request diffs.
+
+> This is an independent, open-source extension. It is not affiliated with, endorsed by, or sponsored by GitHub, Inc. "GitHub" is a trademark of GitHub, Inc.
 
 ## Built Based On
 
