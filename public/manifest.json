@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "GitHub Whitespace",
-  "description": "Redirect GitHub pull request pages to ignore whitespaces",
+  "name": "Hide Whitespace for GitHub",
+  "description": "Hide whitespace-only changes in GitHub pull request diffs. Independent extension, not affiliated with GitHub.",
   "version": "<<NPM_VERSION>>",
   "background": {
     "service_worker": "js/service_worker.js"
