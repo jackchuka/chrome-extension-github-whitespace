@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   webext-permission-toggle:
-    specifier: ^6.0.1
-    version: 6.0.1
+    specifier: ^7.0.0
+    version: 7.0.0
 
 devDependencies:
   copy-webpack-plugin:
@@ -1397,8 +1397,8 @@ packages:
       webext-events: 3.1.1
     dev: false
 
-  /webext-content-scripts@2.7.2:
-    resolution: {integrity: sha512-7e6ZHha2jUww3RXWBkqBkSNa/qVPp8bHHY4BNDPfFIOkCebR+mjDq67BgWxnO51OUJU5skntRndjGmEGVcgvpQ==}
+  /webext-content-scripts@2.8.0:
+    resolution: {integrity: sha512-cVyb1QytAiWc13NuUL0JCUWhEgocIG1QeG4w+h7ZrubYqd+fDD1aO/26nHCn5C47IIWVBilAzjSih/eJlTIknA==}
     engines: {node: '>=16'}
     dependencies:
       webext-patterns: 1.5.1
@@ -1424,17 +1424,16 @@ packages:
       escape-string-regexp: 5.0.0
     dev: false
 
-  /webext-permission-toggle@6.0.1:
-    resolution: {integrity: sha512-AN9zHqa8nUUFRapykqc40Jeac0rB0f9eam223/8bPBxrPGcZlB2B7qsitvAYXKxo1S4SYglrAAOXGrJPq0adYA==}
+  /webext-permission-toggle@7.0.0:
+    resolution: {integrity: sha512-oH/O+CxX+7Opiq4Vri1ESjb+ZLlRHjzNRHjLOJDU7PZToOmK+FSdZrRbRg5tav9e0vCE92ZT4elcM18XqCK81A==}
     engines: {node: '>=16'}
     dependencies:
       webext-alert: 1.1.0
-      webext-content-scripts: 2.7.2
+      webext-content-scripts: 2.8.0
       webext-detect: 5.3.2
       webext-patterns: 1.5.1
       webext-permissions: 3.1.4
-      webext-polyfill-kinda: 1.0.2
-      webext-tools: 3.0.0
+      webext-tools: 4.0.2
     dev: false
 
   /webext-permissions@3.1.4:
@@ -1448,12 +1447,12 @@ packages:
     resolution: {integrity: sha512-rqQUKeBTOicej0tjDJWDQlOTnDcm9yYJTzgI+7rMdyYV4QHmYMRm+yjkcVgECkg/Wu9MboZ4lYeBPdp1Ep9WgQ==}
     dev: false
 
-  /webext-tools@3.0.0:
-    resolution: {integrity: sha512-CqxJetvu7mxDf8yqr0/hFotxUP+9Zw7JT76tbdVo62Py2zhM+rRcsbordwX9jWXMX4q0qw1bk1aHXSxy0coCDw==}
+  /webext-tools@4.0.2:
+    resolution: {integrity: sha512-hH9xMpNZFa8bKDaX/uKL5L31phoMUCXVEs76wduw4253LtTXWDUWeA6AqY6YOApxlHFlJuc+8wCKOlA20oDx3Q==}
     engines: {node: '>=18'}
     dependencies:
-      webext-content-scripts: 2.7.2
       webext-detect: 5.3.2
+      webext-patterns: 1.5.1
       webext-polyfill-kinda: 1.0.2
     dev: false
 
