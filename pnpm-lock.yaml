@@ -33,10 +33,10 @@ devDependencies:
     version: 6.0.3
   webpack:
     specifier: ^5.108.4
-    version: 5.108.4(webpack-cli@7.1.0)
+    version: 5.108.4(webpack-cli@7.2.1)
   webpack-cli:
-    specifier: ^7.1.0
-    version: 7.1.0(webpack@5.108.4)
+    specifier: ^7.2.1
+    version: 7.2.1(webpack@5.108.4)
   webpack-merge:
     specifier: ^6.0.1
     version: 6.0.1
@@ -738,7 +738,7 @@ packages:
       schema-utils: 4.3.3
       serialize-javascript: 7.0.5
       tinyglobby: 0.2.15
-      webpack: 5.108.4(webpack-cli@7.1.0)
+      webpack: 5.108.4(webpack-cli@7.2.1)
     dev: true
 
   /cross-spawn@7.0.6:
@@ -1033,7 +1033,7 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.48.0
-      webpack: 5.108.4(webpack-cli@7.1.0)
+      webpack: 5.108.4(webpack-cli@7.2.1)
     dev: true
 
   /minipass@7.1.2:
@@ -1358,7 +1358,7 @@ packages:
       picomatch: 4.0.4
       source-map: 0.7.6
       typescript: 6.0.3
-      webpack: 5.108.4(webpack-cli@7.1.0)
+      webpack: 5.108.4(webpack-cli@7.2.1)
     dev: true
 
   /typescript@6.0.3:
@@ -1456,8 +1456,8 @@ packages:
       webext-polyfill-kinda: 1.0.2
     dev: false
 
-  /webpack-cli@7.1.0(webpack@5.108.4):
-    resolution: {integrity: sha512-pSJ5p5PkXRD88sfCq5Wo+coc42QykwRu5Md0DyESj0rT6PPPA2wTNabpHPKgqH8EMkfTDo3IWx3iiNXMu8XDBQ==}
+  /webpack-cli@7.2.1(webpack@5.108.4):
+    resolution: {integrity: sha512-YwSGbcZdfz12DM8JIseVPr3oBb09IgVCVc4vY3oDvZnI/mALTGPAP1QiqOi4/bBLSJrRHaqDIXeHcNA0+G38aw==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
@@ -1466,7 +1466,7 @@ packages:
       toml: ^3.0.0 || ^4.0.0
       webpack: ^5.101.0
       webpack-bundle-analyzer: ^4.0.0 || ^5.0.0
-      webpack-dev-server: ^5.0.0
+      webpack-dev-server: ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
       js-yaml:
         optional: true
@@ -1486,7 +1486,7 @@ packages:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.108.4(webpack-cli@7.1.0)
+      webpack: 5.108.4(webpack-cli@7.2.1)
       webpack-merge: 6.0.1
     dev: true
 
@@ -1504,7 +1504,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack@5.108.4(webpack-cli@7.1.0):
+  /webpack@5.108.4(webpack-cli@7.2.1):
     resolution: {integrity: sha512-yur8LyJoeiWh47dErD+Ok7vlbmDsJ3UbbRPAoxbGJ54WpE2y5yVo5G/inUzujnYgw3tPmBRdn+G7PoxXaYC33w==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -1535,7 +1535,7 @@ packages:
       schema-utils: 4.3.3
       tapable: 2.3.3
       watchpack: 2.5.2
-      webpack-cli: 7.1.0(webpack@5.108.4)
+      webpack-cli: 7.2.1(webpack@5.108.4)
       webpack-sources: 3.5.0
     transitivePeerDependencies:
       - '@minify-html/node'
