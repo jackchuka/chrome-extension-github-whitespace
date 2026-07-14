@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   webext-permission-toggle:
-    specifier: ^7.0.0
-    version: 7.0.0
+    specifier: ^7.0.1
+    version: 7.0.1
 
 devDependencies:
   copy-webpack-plugin:
@@ -1424,8 +1424,8 @@ packages:
       escape-string-regexp: 5.0.0
     dev: false
 
-  /webext-permission-toggle@7.0.0:
-    resolution: {integrity: sha512-oH/O+CxX+7Opiq4Vri1ESjb+ZLlRHjzNRHjLOJDU7PZToOmK+FSdZrRbRg5tav9e0vCE92ZT4elcM18XqCK81A==}
+  /webext-permission-toggle@7.0.1:
+    resolution: {integrity: sha512-U5YIrP4kAgsP7MgFeRsS8XRYpdLR8RMrosmNpmaWMzEpEGDWtwVs7R6BZu+1cZOBdsqldFOeyYOddeqX4BWzcg==}
     engines: {node: '>=16'}
     dependencies:
       webext-alert: 1.1.0
@@ -1433,7 +1433,7 @@ packages:
       webext-detect: 5.3.2
       webext-patterns: 1.5.1
       webext-permissions: 3.1.4
-      webext-tools: 4.0.2
+      webext-tools: 4.1.0
     dev: false
 
   /webext-permissions@3.1.4:
@@ -1447,8 +1447,8 @@ packages:
     resolution: {integrity: sha512-rqQUKeBTOicej0tjDJWDQlOTnDcm9yYJTzgI+7rMdyYV4QHmYMRm+yjkcVgECkg/Wu9MboZ4lYeBPdp1Ep9WgQ==}
     dev: false
 
-  /webext-tools@4.0.2:
-    resolution: {integrity: sha512-hH9xMpNZFa8bKDaX/uKL5L31phoMUCXVEs76wduw4253LtTXWDUWeA6AqY6YOApxlHFlJuc+8wCKOlA20oDx3Q==}
+  /webext-tools@4.1.0:
+    resolution: {integrity: sha512-pGFKDLbIdDkPDWeH2I7ickoZktPT3izthYl7T8JX2EXQltbIKk9xEv5/lLZvvkUH9J8HyVnBGp74IxA73H6A5Q==}
     engines: {node: '>=18'}
     dependencies:
       webext-detect: 5.3.2
