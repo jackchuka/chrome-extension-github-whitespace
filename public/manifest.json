@@ -3,6 +3,7 @@
   "name": "Hide Whitespace for GitHub",
   "description": "Hide whitespace-only changes in GitHub pull request diffs. Independent extension, not affiliated with GitHub.",
   "version": "<<NPM_VERSION>>",
+  "homepage_url": "https://github.com/jackchuka/chrome-extension-github-whitespace",
   "background": {
     "service_worker": "js/service_worker.js"
   },
