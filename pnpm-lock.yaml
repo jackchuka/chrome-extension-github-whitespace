@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   webext-permission-toggle:
-    specifier: ^7.0.1
-    version: 7.0.1
+    specifier: ^7.1.1
+    version: 7.1.1
 
 devDependencies:
   copy-webpack-plugin:
@@ -1410,8 +1410,8 @@ packages:
       escape-string-regexp: 5.0.0
     dev: false
 
-  /webext-permission-toggle@7.0.1:
-    resolution: {integrity: sha512-U5YIrP4kAgsP7MgFeRsS8XRYpdLR8RMrosmNpmaWMzEpEGDWtwVs7R6BZu+1cZOBdsqldFOeyYOddeqX4BWzcg==}
+  /webext-permission-toggle@7.1.1:
+    resolution: {integrity: sha512-3H2zfKGAi/2BCexXIjXDbUM4Wshti0OPf2JdgOXB/yQCORc88VIo3LgcEVRojBFdyEUJ2fM4xseA77IdUHSWIA==}
     engines: {node: '>=16'}
     dependencies:
       webext-alert: 1.1.0
