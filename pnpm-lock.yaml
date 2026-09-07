@@ -33,10 +33,10 @@ devDependencies:
     version: 6.0.3
   webpack:
     specifier: ^5.110.1
-    version: 5.110.1(webpack-cli@7.2.2)
+    version: 5.110.1(webpack-cli@7.2.3)
   webpack-cli:
-    specifier: ^7.2.2
-    version: 7.2.2(webpack@5.110.1)
+    specifier: ^7.2.3
+    version: 7.2.3(webpack@5.110.1)
   webpack-merge:
     specifier: ^6.0.1
     version: 6.0.1
@@ -729,7 +729,7 @@ packages:
       schema-utils: 4.3.3
       serialize-javascript: 7.0.5
       tinyglobby: 0.2.15
-      webpack: 5.110.1(webpack-cli@7.2.2)
+      webpack: 5.110.1(webpack-cli@7.2.3)
     dev: true
 
   /cross-spawn@7.0.6:
@@ -994,7 +994,7 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.51.2
-      webpack: 5.110.1(webpack-cli@7.2.2)
+      webpack: 5.110.1(webpack-cli@7.2.3)
     dev: true
 
   /minipass@7.1.2:
@@ -1319,7 +1319,7 @@ packages:
       picomatch: 4.0.4
       source-map: 0.7.6
       typescript: 6.0.3
-      webpack: 5.110.1(webpack-cli@7.2.2)
+      webpack: 5.110.1(webpack-cli@7.2.3)
     dev: true
 
   /typescript@6.0.3:
@@ -1417,14 +1417,14 @@ packages:
       webext-polyfill-kinda: 1.0.2
     dev: false
 
-  /webpack-cli@7.2.2(webpack@5.110.1):
-    resolution: {integrity: sha512-lD0pALneslq8FfV+rwvm1BMW0AFAJrHHhNupAGN4asYjMvqrtRsenU4iKpiBo09gS4ntMxKGUxl9jhTEzVt0oA==}
+  /webpack-cli@7.2.3(webpack@5.110.1):
+    resolution: {integrity: sha512-vDFU7jrfCctnN7jJQWPl+V26B51GLp11prVZXg50oeonsgeBzSTJEWmXkjHsOjTgMjlPOQM8GWLh33X9RN/0ow==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
       js-yaml: ^4.0.0 || ^5.0.0
       json5: ^2.2.3
-      toml: ^3.0.0 || ^4.0.0
+      toml: ^3.0.0 || ^4.0.0 || ^5.0.0
       webpack: ^5.101.0
       webpack-bundle-analyzer: ^4.0.0 || ^5.0.0
       webpack-dev-server: ^5.0.0 || ^6.0.0
@@ -1447,7 +1447,7 @@ packages:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.110.1(webpack-cli@7.2.2)
+      webpack: 5.110.1(webpack-cli@7.2.3)
       webpack-merge: 6.0.1
     dev: true
 
@@ -1465,7 +1465,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack@5.110.1(webpack-cli@7.2.2):
+  /webpack@5.110.1(webpack-cli@7.2.3):
     resolution: {integrity: sha512-gInQB+jxXxgnZyvPwuzT5NGQmECDqeu85oxcrjinrYHqPoBex0hCAN2SFTJVyPVrK0Pq9E44VFP+e89fAc10/w==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -1493,7 +1493,7 @@ packages:
       schema-utils: 4.3.3
       tapable: 2.3.3
       watchpack: 2.5.2
-      webpack-cli: 7.2.2(webpack@5.110.1)
+      webpack-cli: 7.2.3(webpack@5.110.1)
       webpack-sources: 3.5.1
     transitivePeerDependencies:
       - '@minify-html/node'
