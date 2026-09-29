@@ -20,7 +20,7 @@ https://github.com/chibat/chrome-extension-typescript-starter
 ## Setup
 
 ```
-npm install
+pnpm install
 ```
 
 ## Import as Visual Studio Code project
@@ -30,7 +30,7 @@ npm install
 ## Build
 
 ```
-npm run build
+pnpm run build
 ```
 
 ## Build in watch mode
@@ -38,7 +38,7 @@ npm run build
 ### terminal
 
 ```
-npm run watch
+pnpm run watch
 ```
 
 ### Visual Studio Code
@@ -53,4 +53,14 @@ Load `dist` directory
 
 ## Test
 
-`npx jest` or `npm run test`
+```
+pnpm test
+```
+
+## Checks
+
+```
+pnpm run check      # typecheck + lint + fmt:check + test
+pnpm run lint:fix   # auto-fix lint issues
+pnpm run fmt        # format files
+```

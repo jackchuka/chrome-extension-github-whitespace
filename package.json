@@ -13,10 +13,13 @@
     "lint": "oxlint --type-aware --tsconfig ./tsconfig.json",
     "lint:fix": "oxlint --fix --type-aware --tsconfig ./tsconfig.json",
     "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "typecheck": "tsc --noEmit",
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "webpack --config webpack/webpack.prod.js",
     "clean": "rimraf dist",
-    "test": "echo \"no test now\""
+    "test": "echo \"no test now\"",
+    "check": "pnpm run typecheck && pnpm run lint && pnpm run fmt:check && pnpm test"
   },
   "dependencies": {
     "webext-permission-toggle": "^7.1.1"
