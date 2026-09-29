@@ -26,10 +26,13 @@ jobs:
         run: pnpm run lint
 
       - name: Format check
-        run: pnpm run fmt -- --check .
+        run: pnpm run fmt:check
+
+      - name: Typecheck
+        run: pnpm run typecheck
 
       - name: Build
         run: pnpm run build
 
-      - name: Run tests
+      - name: Test
         run: pnpm test
